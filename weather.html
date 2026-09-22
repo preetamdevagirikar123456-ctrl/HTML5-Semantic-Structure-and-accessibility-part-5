@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Dashboard | Preetam Kumar</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="todo.html">To-Do</a>
+            <a href="weather.html">Weather</a>
+        </nav>
+    </header>
+
+    <main>
+
+    <!-- =====================================
+    WEATHER DASHBOARD - TASK 4
+====================================== -->
+
+<section id="weather" aria-labelledby="weather-heading">
+
+    <h2 id="weather-heading">
+        Weather Dashboard
+    </h2>
+
+    <p>
+        Search for a city to view its current weather information.
+    </p>
+
+    <form id="weatherForm">
+        <label for="cityInput">
+            Enter City Name
+        </label>
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter a city"
+            required
+            autocomplete="off"
+        >
+
+        <button type="submit" class="button">
+            Search Weather
+        </button>
+    </form>
+
+    <div
+        id="weatherMessage"
+        class="weather-message"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+    <div
+        id="weatherResult"
+        class="weather-result"
+        aria-live="polite"
+    >
+
+        <h3 id="weatherCity">
+            Weather Information
+        </h3>
+
+        <p id="weatherTime">
+            Last updated: --
+        </p>
+
+        <div class="weather-details">
+
+            <div class="weather-card">
+                <h4>Condition</h4>
+                <p id="weatherCondition">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Temperature</h4>
+                <p id="temperature">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Humidity</h4>
+                <p id="humidity">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Wind Speed</h4>
+                <p id="windSpeed">--</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Preetam Kumar</p>
+    </footer>
+
+    <script src="../js/weather.js" defer></script>
+
+</body>
+</html>

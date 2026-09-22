@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do Application | Preetam Kumar</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>To-Do Application</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="todo.html">To-Do</a>
+            <a href="weather.html">Weather</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- =====================================
+        TO-DO APPLICATION
+====================================== -->
+
+<section id="todo" aria-labelledby="todo-heading">
+
+    <h2 id="todo-heading">
+        To-Do Application
+    </h2>
+
+    <p>
+        Manage your tasks easily. Add, edit, complete and delete tasks.
+    </p>
+
+    <form id="todoForm">
+        <label for="taskInput">
+            Add a new task
+        </label>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task"
+            required
+        >
+
+        <button type="submit" class="button">
+            Add Task
+        </button>
+    </form>
+
+    <div class="todo-filters" aria-label="Task filters">
+
+        <button
+            type="button"
+            class="filter-button active"
+            data-filter="all"
+        >
+            All
+        </button>
+
+        <button
+            type="button"
+            class="filter-button"
+            data-filter="active"
+        >
+            Active
+        </button>
+
+        <button
+            type="button"
+            class="filter-button"
+            data-filter="completed"
+        >
+            Completed
+        </button>
+
+    </div>
+
+    <ul
+        id="taskList"
+        aria-live="polite"
+        aria-label="Task list"
+    >
+    </ul>
+
+    <p id="taskCount" aria-live="polite">
+    0 tasks
+</p>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Preetam Kumar</p>
+    </footer>
+
+    <script src="../js/todo.js" defer></script>
+
+</body>
+</html>

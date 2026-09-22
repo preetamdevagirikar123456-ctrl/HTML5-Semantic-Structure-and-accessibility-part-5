@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta
+        name="description"
+        content="Accessible HTML5 portfolio website demonstrating semantic structure, responsive design, SEO and WCAG accessibility."
+    >
+
+    <meta
+        name="keywords"
+        content="HTML5, accessibility, WCAG, portfolio, web development, semantic HTML"
+    >
+
+    <meta name="author" content="Preetam Kumar">
+
+    <meta
+        property="og:title"
+        content="Preetam Kumar | Accessible Web Developer Portfolio"
+    >
+
+    <meta
+        property="og:description"
+        content="A semantic and accessible HTML5 portfolio website."
+    >
+
+    <meta property="og:type" content="website">
+
+    <title>Preetam Kumar | Web Developer Portfolio</title>
+
+
+</head>
+
+<body>
+
+    <!-- Accessibility: Skip directly to the main content -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+
+    <!-- =========================================
+        HEADER
+    ========================================== -->
+
+    <header role="banner">
+
+        <h1>Preetam Kumar</h1>
+
+        <p>
+            Web Developer | Student | UI Designer
+        </p>
+
+    </header>
+
+
+    <!-- =========================================
+        NAVIGATION
+    ========================================== -->
+
+    <nav aria-label="Main navigation">
+
+        <ul>
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="pages/about.html">About</a>
+            </li>
+
+            <li>
+                <a href="pages/projects.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="pages/todo.html">To-Do</a>
+            </li>
+
+            <li>
+                <a href="pages/weather.html">Weather</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+        <button
+    id="themeToggle"
+    type="button"
+    aria-label="Switch to dark mode"
+>
+    🌙 Dark Mode
+</button>
+
+    </nav>
+
+
+    <!-- =========================================
+        MAIN CONTENT
+    ========================================== -->
+
+    <main id="main-content">
+
+
+        <!-- =====================================
+            HOME
+        ====================================== -->
+
+        <section
+            id="home"
+            class="hero"
+            aria-labelledby="home-heading"
+        >
+
+            <h2 id="home-heading">
+                Hello, I'm Preetam Kumar
+            </h2>
+
+            <p>
+                Welcome to my accessible personal portfolio.
+                I create responsive, semantic and user-friendly
+                websites using modern web technologies.
+            </p>
+
+            <div>
+
+                <a
+                    class="button"
+                    href="#projects"
+                >
+                    View My Projects
+                </a>
+
+                <a
+                    class="button"
+                    href="#contact"
+                >
+                    Contact Me
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+            ABOUT
+        ====================================== -->
+
+        <section
+            id="about"
+            aria-labelledby="about-heading"
+        >
+
+            <h2 id="about-heading">
+                About Me
+            </h2>
+
+            <div class="about-grid">
+
+                <article class="about-card">
+
+                    <h3>
+                        Who I Am
+                    </h3>
+
+                    <p>
+                        I am a passionate web development student
+                        interested in creating websites that are
+                        accessible, responsive and easy to use.
+                    </p>
+
+                    <br>
+
+                    <p>
+                        My goal is to build websites that work well
+                        for everyone, including people who use
+                        keyboards, screen readers and other
+                        assistive technologies.
+                    </p>
+
+                </article>
+
+
+                <aside aria-labelledby="skills-heading">
+
+                    <h3 id="skills-heading">
+                        My Skills
+                    </h3>
+
+                    <ul class="skills-list">
+
+                        <li>HTML5</li>
+
+                        <li>CSS3</li>
+
+                        <li>JavaScript</li>
+
+                        <li>Accessibility</li>
+
+                        <li>Responsive Design</li>
+
+                        <li>SEO</li>
+
+                    </ul>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+            PROJECTS
+        ====================================== -->
+
+        <section
+            id="projects"
+            aria-labelledby="projects-heading"
+        >
+
+            <h2 id="projects-heading">
+                My Projects
+            </h2>
+
+            <p class="section-intro">
+                Here are some example projects demonstrating
+                my web development skills.
+            </p>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        Project 01
+                    </span>
+
+                    <h3>
+                        Accessible Portfolio
+                    </h3>
+
+                    <p>
+                        A semantic HTML5 portfolio designed
+                        according to accessibility principles.
+                    </p>
+
+                    <ul>
+
+                        <li>Semantic HTML</li>
+
+                        <li>WCAG principles</li>
+
+                        <li>Responsive CSS</li>
+
+                    </ul>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        Project 02
+                    </span>
+
+                    <h3>
+                        To-Do Application
+                    </h3>
+
+                    <p>
+                        A simple task management application
+                        demonstrating JavaScript fundamentals.
+                    </p>
+
+                    <ul>
+
+                        <li>JavaScript</li>
+
+                        <li>DOM manipulation</li>
+
+                        <li>Keyboard support</li>
+
+                    </ul>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <span class="project-number">
+                        Project 03
+                    </span>
+
+                    <h3>
+                        Responsive Website
+                    </h3>
+
+                    <p>
+                        A mobile-friendly website that adapts
+                        to different screen sizes.
+                    </p>
+
+                    <ul>
+
+                        <li>CSS Grid</li>
+
+                        <li>Media queries</li>
+
+                        <li>Responsive design</li>
+
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+            ACCESSIBILITY INFORMATION
+        ====================================== -->
+
+        <section
+            id="accessibility"
+            aria-labelledby="accessibility-heading"
+        >
+
+            <h2 id="accessibility-heading">
+                Accessibility
+            </h2>
+
+            <article>
+
+                <p>
+                    This website demonstrates several accessibility
+                    techniques recommended for modern websites.
+                </p>
+
+                <br>
+
+                <ul>
+
+                    <li>
+                        Semantic HTML5 elements are used throughout
+                        the website.
+                    </li>
+
+                    <li>
+                        Navigation can be accessed using the keyboard.
+                    </li>
+
+                    <li>
+                        Form controls have associated labels.
+                    </li>
+
+                    <li>
+                        Visible keyboard focus indicators are provided.
+                    </li>
+
+                    <li>
+                        A skip-to-content link is provided.
+                    </li>
+
+                    <li>
+                        ARIA labels are used where appropriate.
+                    </li>
+
+                    <li>
+                        The website supports reduced-motion preferences.
+                    </li>
+
+                </ul>
+
+            </article>
+
+        </section>
+
+        <!-- =====================================
+        TO-DO APPLICATION
+====================================== -->
+
+<section id="todo" aria-labelledby="todo-heading">
+
+    <h2 id="todo-heading">
+        To-Do Application
+    </h2>
+
+    <p>
+        Manage your tasks easily. Add, edit, complete and delete tasks.
+    </p>
+
+    <form id="todoForm">
+        <label for="taskInput">
+            Add a new task
+        </label>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a task"
+            required
+        >
+
+        <button type="submit" class="button">
+            Add Task
+        </button>
+    </form>
+
+    <div class="todo-filters" aria-label="Task filters">
+
+        <button
+            type="button"
+            class="filter-button active"
+            data-filter="all"
+        >
+            All
+        </button>
+
+        <button
+            type="button"
+            class="filter-button"
+            data-filter="active"
+        >
+            Active
+        </button>
+
+        <button
+            type="button"
+            class="filter-button"
+            data-filter="completed"
+        >
+            Completed
+        </button>
+
+    </div>
+
+    <ul
+        id="taskList"
+        aria-live="polite"
+        aria-label="Task list"
+    >
+    </ul>
+
+    <p id="taskCount" aria-live="polite">
+    0 tasks
+</p>
+
+</section>
+
+<!-- =====================================
+    WEATHER DASHBOARD - TASK 4
+====================================== -->
+
+<section id="weather" aria-labelledby="weather-heading">
+
+    <h2 id="weather-heading">
+        Weather Dashboard
+    </h2>
+
+    <p>
+        Search for a city to view its current weather information.
+    </p>
+
+    <form id="weatherForm">
+        <label for="cityInput">
+            Enter City Name
+        </label>
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter a city"
+            required
+            autocomplete="off"
+        >
+
+        <button type="submit" class="button">
+            Search Weather
+        </button>
+    </form>
+
+    <div
+        id="weatherMessage"
+        class="weather-message"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+    <div
+        id="weatherResult"
+        class="weather-result"
+        aria-live="polite"
+    >
+
+        <h3 id="weatherCity">
+            Weather Information
+        </h3>
+
+        <p id="weatherTime">
+            Last updated: --
+        </p>
+
+        <div class="weather-details">
+
+            <div class="weather-card">
+                <h4>Condition</h4>
+                <p id="weatherCondition">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Temperature</h4>
+                <p id="temperature">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Humidity</h4>
+                <p id="humidity">--</p>
+            </div>
+
+            <div class="weather-card">
+                <h4>Wind Speed</h4>
+                <p id="windSpeed">--</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =====================================
+            CONTACT
+        ====================================== -->
+
+        <section
+            id="contact"
+            aria-labelledby="contact-heading"
+        >
+
+            <h2 id="contact-heading">
+                Contact Me
+            </h2>
+
+            <p>
+                If you would like to contact me, complete the
+                accessible form below.
+            </p>
+
+
+            <form
+                id="contactForm"
+                aria-label="Contact form"
+                novalidate
+            >
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        placeholder="Enter your full name"
+                        required
+                        aria-required="true"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="example@email.com"
+                        required
+                        aria-required="true"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter the subject"
+                        required
+                        aria-required="true"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here"
+                        required
+                        aria-required="true"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    Send Message
+                </button>
+
+
+                <div
+                    id="formMessage"
+                    class="form-message"
+                    role="status"
+                    aria-live="polite"
+                ></div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer role="contentinfo">
+
+        <p>
+            &copy; 2026 Preetam Kumar.
+            All rights reserved.
+        </p>
+
+        <ul>
+
+            <li>
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit my GitHub profile"
+                >
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit my LinkedIn profile"
+                >
+                    LinkedIn
+                </a>
+            </li>
+
+        </ul>
+
+        <p>
+            Built with semantic HTML5 and accessibility in mind.
+        </p>
+
+    </footer>
+
+
+    <!-- =========================================
+        JAVASCRIPT
+    ========================================== -->
+
+<!--   <script>
+
+        /*
+         * CONTACT FORM
+         */
+
+        const contactForm =
+            document.getElementById("contactForm");
+
+        const formMessage =
+            document.getElementById("formMessage");
+
+
+        contactForm.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+
+            /*
+             * Check whether the form is valid.
+             */
+
+            if (!contactForm.checkValidity()) {
+
+                formMessage.style.display = "block";
+
+                formMessage.textContent =
+                    "Please complete all required fields correctly.";
+
+                return;
+            }
+
+
+            /*
+             * Display success message.
+             *
+             * This demonstration does not actually send
+             * an email to a server.
+             */
+
+            formMessage.style.display = "block";
+
+            formMessage.textContent =
+                "Thank you! Your message has been submitted successfully.";
+
+            contactForm.reset();
+
+        });
+
+
+        /*
+         * Keyboard accessibility:
+         * Pressing Escape can return focus to the page.
+         */
+
+        document.addEventListener("keydown", function(event) {
+
+            if (event.key === "Escape") {
+
+                document.activeElement.blur();
+
+            }
+
+        });
+
+        // =========================================
+// DARK / LIGHT MODE
+// =========================================
+
+const themeToggle =
+    document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function () {
+
+    const isDark =
+        document.body.getAttribute("data-theme")
+        === "dark";
+
+    if (isDark) {
+
+        document.body.removeAttribute(
+            "data-theme"
+        );
+
+        themeToggle.textContent =
+            "🌙 Dark Mode";
+
+        themeToggle.setAttribute(
+            "aria-label",
+            "Switch to dark mode"
+        );
+
+    } else {
+
+        document.body.setAttribute(
+            "data-theme",
+            "dark"
+        );
+
+        themeToggle.textContent =
+            "☀️ Light Mode";
+
+        themeToggle.setAttribute(
+            "aria-label",
+            "Switch to light mode"
+        );
+    }
+
+});
+
+// =========================================
+// TO-DO APPLICATION - STEP 2
+// Add and display tasks
+// =========================================
+
+const todoForm = document.getElementById("todoForm");
+const taskInput = document.getElementById("taskInput");
+const taskList = document.getElementById("taskList");
+const taskCount = document.getElementById("taskCount");
+
+const filterButtons = document.querySelectorAll(".filter-button");
+
+let currentFilter = "all";
+
+// Get saved tasks from localStorage
+let todoTasks = JSON.parse(localStorage.getItem("todoTasks")) || [];
+
+// Save tasks to localStorage
+function saveTodoTasks() {
+    localStorage.setItem("todoTasks", JSON.stringify(todoTasks));
+}
+
+// Display tasks on the page
+function renderTodoTasks() {
+
+    taskList.innerHTML = "";
+
+    const remainingTasks = todoTasks.filter(function(task) {
+    return !task.completed;
+}).length;
+
+taskCount.textContent =
+    remainingTasks + (remainingTasks === 1 ? " task remaining" : " tasks remaining");
+
+const filteredTasks = todoTasks.filter(function(task) {
+
+    if (currentFilter === "active") {
+        return !task.completed;
+    }
+
+    if (currentFilter === "completed") {
+        return task.completed;
+    }
+
+    return true;
+});
+
+filteredTasks.forEach(function(task) {
+
+        const li = document.createElement("li");
+
+        li.className = "todo-item";
+
+        li.dataset.id = task.id;
+
+        if (task.completed) {
+            li.classList.add("completed");
+        }
+
+        const span = document.createElement("span");
+
+        span.className = "todo-text";
+
+        span.textContent = task.text;
+
+        const completeButton = document.createElement("button");
+
+        completeButton.type = "button";
+
+        completeButton.className = "complete-button";
+
+        completeButton.dataset.action = "complete";
+
+        completeButton.textContent = task.completed
+            ? "Undo"
+            : "Complete";
+
+        const editButton = document.createElement("button");
+
+editButton.type = "button";
+
+editButton.className = "edit-button";
+
+editButton.dataset.action = "edit";
+
+editButton.textContent = "Edit";
+
+const deleteButton = document.createElement("button");
+
+deleteButton.type = "button";
+
+deleteButton.className = "delete-button";
+
+deleteButton.dataset.action = "delete";
+
+deleteButton.textContent = "Delete";
+
+        li.appendChild(span);
+
+        li.appendChild(completeButton);
+
+        li.appendChild(editButton);
+
+        li.appendChild(deleteButton);
+
+        taskList.appendChild(li);
+    });
+}
+
+// Add a new task
+todoForm.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    const taskText = taskInput.value.trim();
+
+    if (taskText === "") {
+        return;
+    }
+
+    const newTask = {
+        id: Date.now(),
+        text: taskText,
+        completed: false
+    };
+
+    todoTasks.push(newTask);
+
+    saveTodoTasks();
+
+    renderTodoTasks();
+
+    todoForm.reset();
+
+    taskInput.focus();
+});
+
+// Handle task buttons using event delegation
+taskList.addEventListener("click", function(event) {
+
+    const button = event.target.closest("button[data-action]");
+
+    if (!button) {
+        return;
+    }
+
+    const li = button.closest(".todo-item");
+
+    if (!li) {
+        return;
+    }
+
+    const taskId = Number(li.dataset.id);
+
+    const task = todoTasks.find(function(item) {
+        return item.id === taskId;
+    });
+
+    if (!task) {
+        return;
+    }
+
+    if (button.dataset.action === "complete") {
+
+        task.completed = !task.completed;
+
+        saveTodoTasks();
+
+        renderTodoTasks();
+    }
+
+    if (button.dataset.action === "edit") {
+
+    const newText = window.prompt(
+        "Edit task:",
+        task.text
+    );
+
+    if (newText === null) {
+        return;
+    }
+
+    const trimmedText = newText.trim();
+
+    if (trimmedText === "") {
+        return;
+    }
+
+    task.text = trimmedText;
+
+    saveTodoTasks();
+
+    renderTodoTasks();
+}
+
+if (button.dataset.action === "delete") {
+
+    const confirmDelete = window.confirm(
+        "Are you sure you want to delete this task?"
+    );
+
+    if (!confirmDelete) {
+        return;
+    }
+
+    todoTasks = todoTasks.filter(function(item) {
+        return item.id !== taskId;
+    });
+
+    saveTodoTasks();
+
+    renderTodoTasks();
+}
+});
+
+// Handle task filters
+filterButtons.forEach(function(button) {
+
+    button.addEventListener("click", function() {
+
+        currentFilter = button.dataset.filter;
+
+        filterButtons.forEach(function(btn) {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+        renderTodoTasks();
+    });
+});
+
+// Display saved tasks when the page loads
+renderTodoTasks();
+
+// =========================================
+// WEATHER DASHBOARD - TASK 4
+// STEP 3 - API CONNECTION
+// =========================================
+
+const weatherForm = document.getElementById("weatherForm");
+const cityInput = document.getElementById("cityInput");
+
+const weatherMessage = document.getElementById("weatherMessage");
+const weatherResult = document.getElementById("weatherResult");
+
+const weatherCity = document.getElementById("weatherCity");
+const weatherTime = document.getElementById("weatherTime");
+const weatherCondition = document.getElementById("weatherCondition");
+const temperature = document.getElementById("temperature");
+const humidity = document.getElementById("humidity");
+const windSpeed = document.getElementById("windSpeed");
+
+// Fetch weather data for a city
+async function getWeather(city) {
+
+    const geocodingURL =
+        `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=en&format=json`;
+
+    const locationResponse = await fetch(geocodingURL);
+
+    if (!locationResponse.ok) {
+        throw new Error("Unable to find the city.");
+    }
+
+    const locationData = await locationResponse.json();
+
+    if (!locationData.results || locationData.results.length === 0) {
+        throw new Error("City not found. Please enter a valid city name.");
+    }
+
+    const location = locationData.results[0];
+
+    const weatherURL =
+        `https://api.open-meteo.com/v1/forecast?latitude=${location.latitude}&longitude=${location.longitude}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&temperature_unit=celsius&wind_speed_unit=kmh`;
+
+    const weatherResponse = await fetch(weatherURL);
+
+    if (!weatherResponse.ok) {
+        throw new Error("Unable to retrieve weather data.");
+    }
+
+    const weatherData = await weatherResponse.json();
+
+    return {
+        city: location.name,
+        country: location.country,
+        temperature: weatherData.current.temperature_2m,
+        humidity: weatherData.current.relative_humidity_2m,
+        windSpeed: weatherData.current.wind_speed_10m,
+        weatherCode: weatherData.current.weather_code,
+        time: weatherData.current.time
+    };
+}
+
+function getWeatherCondition(code) {
+
+    if (code === 0) {
+        return "Clear sky";
+    }
+
+    if (code === 1 || code === 2 || code === 3) {
+        return "Partly cloudy";
+    }
+
+    if (code === 45 || code === 48) {
+        return "Fog";
+    }
+
+    if (code >= 51 && code <= 67) {
+        return "Rain";
+    }
+
+    if (code >= 71 && code <= 77) {
+        return "Snow";
+    }
+
+    if (code >= 80 && code <= 82) {
+        return "Rain showers";
+    }
+
+    if (code >= 85 && code <= 86) {
+        return "Snow showers";
+    }
+
+    if (code >= 95) {
+        return "Thunderstorm";
+    }
+
+    return "Unknown";
+}
+
+weatherForm.addEventListener("submit", async function(event) {
+
+    event.preventDefault();
+
+    const city = cityInput.value.trim();
+
+    if (city === "") {
+        weatherMessage.style.display = "block";
+        weatherMessage.textContent = "Please enter a city name.";
+        cityInput.focus();
+        return;
+    }
+
+    const searchButton = weatherForm.querySelector("button[type='submit']");
+
+    searchButton.disabled = true;
+    searchButton.textContent = "Loading...";
+
+    weatherMessage.style.display = "block";
+    weatherMessage.textContent = "Loading weather data...";
+
+    weatherResult.style.display = "none";
+
+    try {
+
+        const weather = await getWeather(city);
+
+        weatherCity.textContent =
+            `${weather.city}, ${weather.country}`;
+
+        weatherTime.textContent =
+            `Last updated: ${weather.time.replace("T", " ")}`;
+
+        weatherCondition.textContent =
+    getWeatherCondition(weather.weatherCode);
+
+        temperature.textContent =
+            `${weather.temperature} °C`;
+
+        humidity.textContent =
+            `${weather.humidity} %`;
+
+        windSpeed.textContent =
+            `${weather.windSpeed} km/h`;
+
+        weatherMessage.textContent =
+            "Weather data loaded successfully.";
+
+        weatherResult.style.display = "block";
+
+    } catch (error) {
+
+        weatherMessage.textContent =
+            error.message;
+
+        weatherResult.style.display = "none";
+
+    } finally {
+
+        searchButton.disabled = false;
+        searchButton.textContent = "Search Weather";
+
+    }
+});
+
+    </script>
+-->
+
+<script src="js/main.js" defer></script>
+<script src="js/todo.js" defer></script>
+<script src="js/weather.js" defer></script>
+
+</body>
+</html>
